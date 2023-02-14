@@ -87,5 +87,25 @@ Salario neto a pagar: 1.547,42 €*/
         salarioNeto = salarioNeto + primaFamiliar;
         System.out.println("Nómina de " + nombre + " " + apellido);
         System.out.println("Estado: " + puesto);
+        System.out.println("Salario bruto: " + salarioBruto + "€");
+        System.out.println("Cálculo de deducciones:");
+        System.out.println("Contribución para el pago de la deuda social y contingencias comunes imponible");
+        System.out.println(salarioBruto + "€" + " × 3,49 % = " + salarioBruto * 0.0349 + "€");
+        System.out.println("Contribución de contingencias comunes no imponible");
+        System.out.println(salarioBruto + "€" + " × 6,15 % = " + salarioBruto * 0.0615 + "€");
+        System.out.println("Seguro médico");
+        System.out.println(salarioBruto + "€" + " × 0,95 % = " + salarioBruto * 0.0095 + "€");
+        System.out.println("Fondo de pensiones");
+        System.out.println(salarioBruto + "€" + " × 8,44 % = " + salarioBruto * 0.0844 + "€");
+        System.out.println("Seguro de desempleo");
+        System.out.println(salarioBruto + "€" + " × 3,05 % = " + salarioBruto * 0.0305 + "€");
+        System.out.println("Pensión complementaria (Entidad privada)");
+        System.out.println(salarioBruto + "€" + " × 3,81 % = " + salarioBruto * 0.0381 + "€");
+        System.out.println("Contribución de jubilación anticipada");
+        System.out.println(salarioBruto + "€" + " × 1,02 % = " + salarioBruto * 0.0102 + "€");
+        System.out.println("Deducciones totales de los empleados: " + deducciones + "€");
+        System.out.println("Salario neto: " + salarioNeto + "€");
+        System.out.println("Prima familiar: " + primaFamiliar + "€");
+        System.out.println("Salario neto a pagar: " + salarioNeto + "€");
     }
 }
