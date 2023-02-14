@@ -87,7 +87,7 @@ Salario neto a pagar: 1.547,42 €*/
         salarioNeto = salarioNeto + primaFamiliar;
         System.out.println("Nómina de " + nombre + " " + apellido);
         System.out.println("Estado: " + puesto);
-        System.out.println("Salario bruto: " + salarioBruto + "€");
+        System.out.println("Salario bruto: " + salarioBruto + "€" + " (" + (horas - 180) + " horas sin incremento, " + 11 + " horas con incremento del 50 %, " + 10 + " horas con incremento del 60 %)");
         System.out.println("Cálculo de deducciones:");
         System.out.println("Contribución para el pago de la deuda social y contingencias comunes imponible");
         System.out.println(salarioBruto + "€" + " × 3,49 % = " + salarioBruto * 0.0349 + "€");
@@ -107,5 +107,6 @@ Salario neto a pagar: 1.547,42 €*/
         System.out.println("Salario neto: " + salarioNeto + "€");
         System.out.println("Prima familiar: " + primaFamiliar + "€");
         System.out.println("Salario neto a pagar: " + salarioNeto + "€");
+
     }
 }
