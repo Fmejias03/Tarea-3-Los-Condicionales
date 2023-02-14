@@ -3,7 +3,7 @@
  
  Mi Repositorio: https://github.com/Fmejias03/Tarea-3-Los-Condicionales.git
  
- El ejercicio 1 tiene dos versiones las cuales se pueden ver en la Branch "Ejercicio_1_V2
+## Importante: El ejercicio 1 tiene dos versiones las cuales se pueden ver en la Branch "Ejercicio_1_V2
 
 # Ejercicios
 ## 1. El tiempo
